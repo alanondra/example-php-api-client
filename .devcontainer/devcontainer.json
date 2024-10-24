@@ -1,0 +1,51 @@
+{
+	"name": "Workspace",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"PHP_VERSION": "8.4.0RC3"
+		}
+	},
+	"postCreateCommand": ".devcontainer/sh/create.sh",
+	"remoteUser": "vscode",
+	"forwardPorts": [],
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"search.useIgnoreFiles": false,
+				"php.validate.executablePath": "/usr/local/bin/php",
+				"php.debug.executablePath": "/usr/local/bin/php",
+				"php.executablePath": "/usr/local/bin/php",
+				"php.suggest.basic": false,
+				"php.validate.enable": false,
+				"intelephense.environment.phpVersion": "8.4.0",
+				"intelephense.environment.shortOpenTag": false,
+				"php-docblocker.qualifyClassNames": true,
+				"php-docblocker.returnGap": true,
+				"php-docblocker.useShortNames": true
+			},
+			"extensions": [
+				"donjayamanne.git-extension-pack",
+				"EditorConfig.EditorConfig",
+				"ms-vscode.anycode-php",
+				"bmewburn.vscode-intelephense-client",
+				"ikappas.composer",
+				"xdebug.php-debug",
+				"neilbrayfield.php-docblocker",
+				"junstyle.php-cs-fixer"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {
+			"fisher": true
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {
+			"installDirectlyFromGitHubRelease": true,
+			"version": "latest"
+		}
+	}
+}
