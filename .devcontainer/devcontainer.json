@@ -32,7 +32,9 @@
 				"ikappas.composer",
 				"xdebug.php-debug",
 				"neilbrayfield.php-docblocker",
-				"junstyle.php-cs-fixer"
+				"junstyle.php-cs-fixer",
+				"redhat.vscode-xml",
+				"redhat.vscode-yaml"
 			]
 		}
 	},

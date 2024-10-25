@@ -1,2 +1,4 @@
 vendor/
+.directory
+.*cache
 composer.lock

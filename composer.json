@@ -1,0 +1,58 @@
+{
+	"name": "alanondra/example-php-api-client",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [
+		"example"
+	],
+	"description": "Example API Client in PHP",
+	"authors": [
+		{
+			"name": "Alan Ondra",
+			"email": "alan.ondra@proton.me"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/alanondra/example-php-api-client/issues",
+		"forum": "https://github.com/alanondra/example-php-api-client/discussions",
+		"wiki": "https://github.com/alanondra/example-php-api-client/wiki"
+	},
+	"funding": [
+		{
+			"type": "github",
+			"url": "https://github.com/sponsors/alanondra"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"pestphp/pest-plugin": true
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"AOndra\\ExampleClient\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"AOndra\\ExampleClient\\Tests\\": "tests/"
+		}
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"php": "^8.4",
+		"psr/log": "3.x-dev",
+		"psr/event-dispatcher": "1.0.x-dev",
+		"psr/http-message": "2.0.x-dev",
+		"psr/simple-cache": "3.0.x-dev",
+		"psr/http-factory": "^1.1",
+		"psr/http-client": "1.0.x-dev"
+	},
+	"require-dev": {
+		"pestphp/pest": "3.x-dev",
+		"mockery/mockery": "2.0.x-dev",
+		"guzzlehttp/psr7": "3.0.x-dev",
+		"friendsofphp/php-cs-fixer": "dev-master",
+		"squizlabs/php_codesniffer": "4.0.x-dev"
+	}
+}
