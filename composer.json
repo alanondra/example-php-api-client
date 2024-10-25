@@ -30,12 +30,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"AOndra\\ExampleClient\\": "src/"
+			"AOndra\\ExampleApi\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"AOndra\\ExampleClient\\Tests\\": "tests/"
+			"AOndra\\ExampleApi\\Tests\\": "tests/"
 		}
 	},
 	"minimum-stability": "dev",
@@ -51,8 +51,8 @@
 	"require-dev": {
 		"pestphp/pest": "3.x-dev",
 		"mockery/mockery": "2.0.x-dev",
-		"guzzlehttp/psr7": "3.0.x-dev",
 		"friendsofphp/php-cs-fixer": "dev-master",
-		"squizlabs/php_codesniffer": "4.0.x-dev"
+		"squizlabs/php_codesniffer": "4.0.x-dev",
+		"guzzlehttp/psr7": "3.0.x-dev"
 	}
 }

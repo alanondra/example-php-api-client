@@ -1,6 +1,6 @@
 <?php
 
-namespace AOndra\ExampleClient\Tests;
+namespace AOndra\ExampleApi\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

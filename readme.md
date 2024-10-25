@@ -1,6 +1,8 @@
 # Example API Client in PHP
-This is an example API client written in PHP according to the following
-PHP Standards Recommendations:
+This is an example API client written in PHP for interacting with
+the [Dummy JSON](https://dummyjson.com) API.
+
+Developed according to the following PHP Standards Recommendations:
 
 - [Logger Interface](https://www.php-fig.org/psr/psr-3)
 - [Autoloading Standard](https://www.php-fig.org/psr/psr-4)
